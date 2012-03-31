@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping    PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN"     "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="core.domain.Person" table="persons">
+		<id column="id" name="id" type="integer">
+			<generator class="increment" />
+		</id>
+		<property name="firstName" column="first_name" type="java.lang.String" />
+		<property name="lastName" column="last_name" type="java.lang.String" />
+		<property name="date" column="date" type="java.util.Date" />
+		<property name="phone" column="phone" type="java.lang.String" />
+		<property name="email" column="email" type="java.lang.String" />
+		<property name="imgFilePath" column="img_file_path" type="java.lang.String" />
+		<property name="filePath" column="file_path" type="java.lang.String" />
+        <property name="comment" column="comment" type="java.lang.String" />
+	</class>
+</hibernate-mapping>
