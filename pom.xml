@@ -47,7 +47,7 @@
 					</descriptorRefs>
 					<archive>
 						<manifest>
-							<mainClass>client.desktop.def.Main</mainClass>
+							<mainClass>org.courses.desktopclient.Main</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
